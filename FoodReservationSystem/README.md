@@ -98,33 +98,4 @@ Display food menu: Each food information in Foods.txt should be displayed on the
 Show order list of table: The table ID of the table whose order information will be shown on the screen must be obtained from the
 customer. Then, the order information in Orders.txt for this table should be displayed on the screen.
 
-Additional Information
- We share two folders with you: Reservation Program and C files.
- The Reservation Program folder contains the working versions of the requested softwares.
- This assignment will be done in a group of two students.
- The first student in the group will write the program that will perform the tasks of the Admin panel, as in the Admin.exe file.
- The second student in the group will write a program that will perform the tasks of the Customer panel, as in the Customer.exe
-file.
- The .txt files included here are default files. You can check the contents of the .txt files by running .exe files given.
- You must send an e-mail to oayana@atu.edu.tr with information about who you will be in a group with and which
-student will write the Admin panel and which student will write the Customer panel, by April 7, 23.59.
- I will randomly match students who do not provide group information.
- If a student in the group does not submit the program assigned to him/her, he/she will directly receive a 0. 15 points will
-be deducted from your partner.
-Assignment Submission
- We share .c and .h files in the C files folder.
- Students who will write the admin panel must fill in and send the admin.c, admin.h and mainAdmin.c files.
- Students who will write the Customer panel must fill in and send customer.c, customer.h and mainCustomer.c files.
- .h files should contain only struct definitions, global variables and function signatures.
- In .c files, the functions defined in .h files must be implemented and used.
- Struct definitions, global variables and function signatures that are common to both Admin and Customer panels
-should be implemented in common.h and common.c files and used by including them in both programs.
- Information about who wrote the common functions should be written above the function as a comment line. Care
-should be taken to write common functions equally.
- Students within the group must submit their solutions individually. Common.c and common.h files must be included in
-both student files.
-IMPLEMENTATION CONSTRAINTS:
- Standard I/O functions must be used for I/O operations (eg: fread, fwrite, fprintf, fscanf, fseek).
- Orders.txt, TakenOrders.txt and Foods.txt files must be used in binary form.
- log.txt and ClosedOrders.txt files must be used in the normal form.
 
